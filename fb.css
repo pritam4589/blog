@@ -1,0 +1,123 @@
+
+/* Reset some default styles */
+* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1778f2;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info p {
+    font-size: 16px;
+    color: #333;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #1778f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-list {
+    margin-top: 20px;
+}
+
+.blog-item {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-item h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.blog-item p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.blog-item p.content {
+    font-size: 16px;
+}
+
+.blog-item p.author {
+    font-style: italic;
+}
+
+.user-home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.user-home a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1778f2;
+    background-color: #fff;
+    border: 2px solid #1778f2;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    transition: all 0.3s ease;
+}
+
+.user-home a:hover {
+    background-color: #1778f2;
+    color: #fff;
+}
